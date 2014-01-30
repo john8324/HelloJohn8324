@@ -15,6 +15,7 @@ int main()
 		sum+=i;
 		printf("sum=  %d\n",sum);
 	}
-	system("pause");
+    printf("test branch :)\n");
+	system("pause");/* only on windows >__< */
     return 0;
 }
