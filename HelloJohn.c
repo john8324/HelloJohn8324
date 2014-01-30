@@ -7,7 +7,10 @@ int main()
     printf("I just want to practice it.......\n");
     printf("XDDDDDD\n");
     int sum=0,i;
-    for(i=0;i<1000;i++)
+    /* edit master branch after test branch is created*/
+    int n;
+    scanf("%d",&n);
+    for(i=0;i<n;i++)/* change 1000 to n */
     {
 		sum+=i;
 		printf("sum=  %d\n",sum);
